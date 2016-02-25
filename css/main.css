@@ -17,8 +17,19 @@ header img {
 	margin-right: 0px;
   margin-bottom: 0px;
 }
-nav ul li a{
+nav ul li a {
   color: white;
+}
+.navbar-nav > li > a:hover {
+	background: #F7BA6A;
+	transition: 0.2s;
+	-webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -o-transition: 0.2s;
+}
+.navbar-nav > li > a:focus {
+	background: transparent;
+	color: white;
 }
 .navbar-brand {
   padding: 0px 0px;
@@ -88,6 +99,9 @@ nav ul li a{
 #blog .social-media a i:hover {
 	background-color: #F1B556;
 	transition: 0.2s;
+	-webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -o-transition: 0.2s;
 }
 /* FOOTER */
 footer {
