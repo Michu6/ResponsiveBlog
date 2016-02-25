@@ -1,0 +1,67 @@
+.container {
+	color: white;
+	font-family: "Rosario";
+	font-style: italic;
+	width: 70%;
+}
+h1, h2, h3, h4, h5 {
+	font-family: "Courgette";
+	font-style: normal;
+	margin: 0;
+	padding: 0;
+}
+h1, h3 {
+	color: #F7BA6A;
+	font-weight: bold;
+}
+h1 {
+	font-size: 75px;
+}
+h3 {
+	font-size: 17px;
+}
+h4 {
+	font-family: "Rosario";
+	font-size: 15px;
+	font-style: italic;
+}
+h5 {
+	font-family: "Rosario";
+	font-style: normal;
+	font-weight: bold;
+	padding-bottom: 2%;
+}
+p {
+	margin: 0;
+}
+section {
+	background-color: #2D2735;
+	padding-top: 3%;
+}
+section h4 {
+	padding: 3% 0;
+}
+img {
+	width: 100%;
+	height: auto !important;
+}
+.bg-dark {
+	background-color: #1C1821;
+}
+.text-center {
+	text-align: center;
+}
+.text-left {
+	text-align: left;
+}
+.text-right {
+	text-align: right;
+}
+.text-normal {
+	font-style: normal;
+	text-align: left;
+}
+.text-pd-42 { /* Text Padding */
+ 	padding: 4% 2%;
+ 	text-align: center;
+}

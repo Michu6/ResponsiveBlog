@@ -1,0 +1,122 @@
+/* HEADER NAV */
+header {
+	background-color: #1c1821;
+}
+header img {
+	width: 40%;
+}
+.navbar{
+	padding-bottom: 10px;
+	padding-top: 10px;
+	background-color: #1c1821;
+}
+.navbar-toggle .icon-bar{
+	background-color: white;
+}
+nav ul li {
+    margin-right: 14px;
+}
+nav ul li a{
+    color: white;
+}
+.navbar-brand {
+    float: left;
+    height: 0px; 
+    padding: 0px 0px; 
+    /* font-size: 18px; */
+    line-height: 0px; 
+}
+/*
+header a {
+	color: white;
+	text-decoration: none;
+	padding: 2%;
+}
+header a:hover {
+	background-color: red;
+	color: white;
+	text-decoration: none;
+	padding: 2%;
+}
+*/
+/* SECTION HERO */
+#hero .content {
+	background-image: url(../image/header-image.jpg);
+	background-size: cover;
+	padding: 9% 19%;
+}
+#hero .content-description {
+	background-color: #1C1821;
+	padding: 7% 0;
+}
+
+/* SECTION PROYECTS */
+#proyects .content-description p {
+	margin-top: 2%;
+}
+
+/* SECTION BLOG TEXT*/
+#blog {
+	padding-bottom: 3%;
+}
+
+/* SECTION BLOG VIDEO */
+#blog iframe {
+	width: 100%;
+}
+
+/* SECTION BLOG SEARCH */
+#blog .search {
+	background-color: #1C1821;
+	border-radius: 5px;
+	display: block;
+	padding: 5% 0;
+	text-align: center;
+}
+#blog input {
+	background-color: #2D2735;
+	border-radius: 5px;
+	border-style: none;
+	padding: 2% 6%;
+	width: 90%;
+}
+/* SECTION BLOG ABOUT ME */
+#blog .about-me {
+	display: block;
+	margin-top: 3%;
+}
+#blog .social-media i {
+	background-color: #2D2735;
+	border-radius: 100%;
+	padding: 2%;
+	margin: 0 2% 4%;
+}
+
+/* FOOTER */
+footer {
+	background-color: #1C1821;
+	color: white;
+	padding: 3% 0;
+	text-align: center;
+}
+
+/* Responsive */
+@media screen and (max-width : 920px) {
+	.container {
+		width: 90%;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.container {
+		width: 90%;
+	}
+	/* SECTION HERO */
+	#hero .content {
+    padding: 3% 5%;
+	}
+	/* SECTION BLOG ABOUT ME */
+	#blog .about-me, #blog .search {
+		display: none;
+	}
+}
